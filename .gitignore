@@ -1,0 +1,7 @@
+.vs/RestAireline/v15/
+obj/
+.vs/
+bin/
+.idea/
+**/.idea/
+docker-compose/mongo/

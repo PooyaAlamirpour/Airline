@@ -1,0 +1,6 @@
+{
+  "host": "rabbitmq://localhost",
+  "userName": "admin",
+  "password": "admin",
+  "queueName": "restairline.booking"
+}

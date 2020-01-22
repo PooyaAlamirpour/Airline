@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: externalcfg
+  labels:
+    app: restairline
+data:
+  EventStoreConnectionString: Server=sql-data;Database=RestAirline;User Id=sa;Password=RestAirline123
+  ReadModelConnectionString: Server=sql-data;Database=RestAirlineRead;User Id=sa;Password=RestAirline123
